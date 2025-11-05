@@ -1,0 +1,36 @@
+:root {
+  --primary: #6366f1;
+  --secondary: #8b5cf6;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --dark: #0f172a;
+  --darker: #1e293b;
+  --card: #1e293b;
+  --text: #f1f5f9;
+  --text-dim: #cbd5e1;
+  --gold: #fbbf24;
+  --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+  background: linear-gradient(135deg, var(--dark) 0%, #0a0e27 100%);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* The rest of the CSS includes layout, animations, colors, buttons, chat style, game boxes, modals, responsiveness as seen in the provided styles.css file attachment. */
